@@ -13,7 +13,7 @@ import zipfile
 import psutil
 
 
-os.chdir(r'C:\Users\santana\Tolis Advisors LP\Technology - Shared\Python Tools - SOP, Scripts, Data\Large Data Tool Stacr')
+os.chdir(r'')
 colheaders = pd.read_excel('columncreatorfile.xlsx',sheet_name='col86')
 
 svmem = psutil.virtual_memory()
